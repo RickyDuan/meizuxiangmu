@@ -1,0 +1,120 @@
+body{
+	background-color: #0056B3;
+}
+.xia-lun-nav{
+	width: 100%;
+	background-color: #FFFFFF;
+}
+ .nav{
+	 
+	height: 80px;
+	
+	 
+ }
+.nav-1{
+	 /* width: 1519px !important; */
+	margin: 0 auto;
+	position: absolute;
+	z-index: 1000;
+	top: 0px;
+	left: ;
+	width: 80%;
+	height: 80px;
+	left: 10%;
+	
+	
+	
+}
+.nav-u{
+	width: 70%;
+	height: 82px;
+	float: left;
+	margin-left: -2px;
+	display: block;
+	
+}
+
+.gao{
+	clear: both;
+}
+.login-i{
+	width: 250px ;
+	height: 46px ;
+	background-image: url(img/logo.png);
+	background-repeat: no-repeat;
+	background-size: 50%;
+	float: left;
+	margin-left: -10px;
+	margin-top: 1.875rem;
+}
+.nav-u>ul{
+	margin-left:-1.25rem;
+	
+}
+.nav-u>ul li{
+	float: left;
+	list-style-type: none;
+	padding: 30px 20px;
+	color: #FFFFFF;
+	font-size: 15px;
+	font-weight: 500;
+	font-family: "agency fb";
+	
+}
+
+.nav-u li:hover{
+	color: #008cff !important;
+}
+.nav-input{
+		position: relative;
+		float: right;
+		margin-right: -95px;
+		margin-top: 25px;
+		width: 170px;
+		height: 30px;
+		line-height: 29px;
+		font-size: 12px;
+		background: #fff;
+		border-radius: 20px;
+		border: 1px solid #999;
+}
+.nav-input>input{
+	    display: block;
+	    border: none;
+	    padding: 0;
+	    outline: 0;
+	    width: 127px;
+	    height: 20px;
+	    margin-left: 15px;
+	    margin-top: 5px;
+	    transition: width .5s;
+	    font-size: 12px;
+	    line-height: 20px;
+	    color: #333;
+	    background: transparent;
+	    box-sizing: content-box;
+	    outline-offset: 0;
+}
+.nav-input img{
+	    width: 17px;
+	    margin-top: -17px;
+	    margin-left: 144px;
+	    cursor: pointer;
+		display: block;
+}
+.ren-img{
+	position: relative;
+	width: 25px;
+	height: 25px;
+	display: block;
+	left: 107px;
+	top: 25px;
+}
+.gou-img{
+	position: relative;
+	width: 29px;
+	height: 29px;
+	display: block;
+	left: 155px;
+	top: -4px;
+}

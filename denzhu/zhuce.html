@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="tong.css"/>
+		<link rel="stylesheet" type="text/css" href="zhuce.css"/>
+	</head>
+	<body style="min-height: 800px;">
+		<div id="content">
+			
+			<div class="nav waibianju">
+				<a href="#"></a>
+			</div>
+			<div class="bo-bg">
+				<div>
+					<div class="denlu">
+						<p class="pshou">注册账号</p>
+						<a href="denlu.html" class="p-gg">直接登录</a>
+						<br>
+						<span>用户名：</span>
+						<input type="text" id="uname" placeholder="请输入用户名"/>
+						<span id="d1"></span>
+						<br>
+						<span>登录密码：</span>
+						<input type="password" id="upwd" placeholder="请输入用户密码"/>
+						<span id="d2"></span>
+						<br>
+						<span>确认密码：</span>
+						<input type="password" id="upwdtoo" placeholder="两次密码需要一致"/>
+						<span id="d3"></span>
+						<br>
+						<span>邮箱：</span>
+						<input type="email" id="email" placeholder="请输入邮箱">
+						<span id="d4"></span>
+						<br>		
+						<span>手机号：</span>
+						<input type="text" id="phone" placeholder="请输入联系电话">
+						<span id="d5"></span>
+						<br>
+						<span class="paichu">性别：</span>
+						<a>
+							<input type="radio" name="gender" id="man">男
+							<input type="radio" id="wom" name="gender">女
+							<input type="radio" id="unk" checked name="gender">保密<br>
+						</a>
+						<div id="falv">
+							<div><i></i></div>
+							<input type="radio" id="dian" name="gy"><span>注册账号即表示您同意并愿意遵守 <a href="#">Flyme账号服务协议</a> 、 <a href="#">法律声明</a> 和 <a href="#">隐私政策</a></span>
+							<p></p>
+						</div>
+						<button onclick="reg()">立即注册</button>
+						
+						<script src="zhuce.js" type="text/javascript" charset="utf-8"></script>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

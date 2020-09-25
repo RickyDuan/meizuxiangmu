@@ -1,0 +1,140 @@
+
+body{
+	overflow: auto;
+	background-color: white;
+	/* margin: 0; */
+}
+#content{
+	width: 100%;
+}
+.nav{
+	width: 1519px;
+	height: 68px;
+	
+	
+}
+.nav>a{
+	display: block;
+	width: 110px;
+	height: 20px;
+	background: url(img_2/base.png);
+	background-position: -3px -3px;
+	margin-left: 18%;
+	margin-top: 23px;
+}
+.bo-bg{
+	width: 1519px;
+	height: 750px;
+	background: linear-gradient(180deg, #edfcfd 0%, #faffff 100%);
+	
+}
+.bo-bg>div{
+	width: 100%;
+	height: 100%;
+	background: url(img_2/pic-flyme.png) no-repeat;
+	background-position: 65% 50%;
+	position: relative;
+	
+}
+.denlu{
+	width: 450px;
+	height: 450px;
+	position: absolute;
+	top: 20%;
+	right: 17%;
+	background:#ffffff21;
+	padding: 35px 35px 10px;
+	border-radius: 2px;
+	box-shadow: 0 6px 12px 0 rgba(138,153,150,0.15);
+	}
+
+.pshou{
+	color: #387aff !important;
+	margin-left: 128px;
+	font-size: 27px;
+	font-weight: 600;
+	font-family: "Microsoft Yahei",Arial,Helvetica,sans-serif;
+	margin-bottom: 25px;
+	display: inline-block;
+	position: relative;
+}
+
+.denlu>span{
+	display: inline-block;
+	margin-top: 10px;
+	width: 85px;
+	text-align: right;
+	margin-left: 10px;
+	font: 16px "simhei", Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	color: #000000ad;
+}
+
+.denlu>input{
+	padding: 13px 20px;
+	width: 235px;
+	margin-top: 60px;
+	border-radius: 2px;
+	border: 1px solid #9086864f;
+	outline:none;
+	border-radius: 3%;
+	box-shadow: 0 6px 12px 0 rgba(138,153,150,0.15);
+}
+.denlu>span[id]{
+	position: absolute;
+	
+	margin-left: 100px;
+	margin-top: 10px;
+	color:red;
+	display: block;
+	width: 100px;
+	font-size: 13px;
+}
+.denlu>span[id]:nth-child(9){
+	margin-left: 84px;
+}
+.denlu>input:nth-child(4){
+	margin-top: 30px;
+}
+.denlu>input:hover{
+	border: 1px solid #20C997;
+}
+.denlu>a{
+	color: #007BFF;
+	font: 16px "simhei", Arial, Helvetica, sans-serif;
+	position: relative;
+	left: 50px;
+	top: 40px;
+	border-bottom: 1.1px solid #00BFFF;
+	font-weight: 600;
+}
+.denlu>button{
+	width: 180px;
+	font-size: 14px;
+	display: block;
+	height: 46px;
+	line-height: 46px;
+	background-color: #387aff;
+	color: #FFFFFF;
+	border: none;
+	margin-top: 60px;
+	margin-left: 110px;
+	border-radius: 2px;
+}
+#tishi{
+	color: red;
+	font-size: 14px;
+	font-weight: 600;
+	font-family: "blackadder itc";
+	text-align: center;
+	line-height: 100px;
+	position: absolute;
+	left: 195px;
+	top: 177px;
+	width: 150px;
+	height: 100px;
+	background-color: #94c3cd99;
+	box-shadow: 0 6px 12px 0 rgba(138,153,150,0.15);
+	border-radius: 5px;
+	display: none;
+}
